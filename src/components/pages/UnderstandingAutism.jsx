@@ -8,7 +8,7 @@ const UnderstandingAutism = () => {
                     <img
                         src="/images/chart.png"
                         alt="Autism Pattern Chart"
-                        className="w-[500px] h-[300px]"
+                        className="md:w-[500px] md:h-[300px] w-full h-auto"
                     />
                 </div>
 

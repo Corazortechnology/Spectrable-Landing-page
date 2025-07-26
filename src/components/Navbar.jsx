@@ -8,10 +8,12 @@ const Navbar = () => {
     return (
         <nav className="w-full flex items-center justify-between px-6 py-4 bg-white shadow-sm fixed">
 
-            <div className="flex items-center space-x-2">
-                <div className="w-6 h-6 bg-gradient-to-br from-pink-500 via-purple-500 to-green-400 rounded-full" />
-                <span className="text-2xl font-semibold text-gray-900">SpectrAble</span>
-            </div>
+            <Link to="/">
+                <div className="flex items-center space-x-2">
+                    <div className="w-6 h-6 bg-gradient-to-br from-pink-500 via-purple-500 to-green-400 rounded-full" />
+                    <span className="text-2xl font-semibold text-gray-900">SpectrAble</span>
+                </div>
+            </Link>
 
             <div className="hidden md:flex font-semibold items-center space-x-6 text-[18px] text-black">
                 <Link to="/" className="hover:text-gray-900">Home</Link>

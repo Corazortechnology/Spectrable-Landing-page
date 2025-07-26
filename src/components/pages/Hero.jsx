@@ -1,6 +1,10 @@
 
-
+import { useNavigate } from "react-router-dom";
 const Hero = () => {
+    const navigate = useNavigate();
+    function howBtn() {
+        navigate("/how-it-works")
+    }
     return (
         <section className="flex flex-col-reverse md:flex-row items-center justify-between pl-6 md:pl-12 py-16 md:py-20 bg-white">
 
@@ -13,10 +17,10 @@ const Hero = () => {
                 </p>
 
                 <div className="mt-6 flex flex-col sm:flex-row gap-4">
-                    <button className="bg-gradient-to-r from-indigo-600 to-blue-900 text-white px-6 py-3 rounded-full text-xl hover:opacity-90 transition">
+                    <button className="bg-gradient-to-r from-indigo-600 to-blue-900 text-white px-6 py-2 rounded-full text-xl hover:opacity-90 transition">
                         Request Early Access
                     </button>
-                    <button className="text-black bg-gray-100 px-6 py-3 rounded-full font-semibold text-xl">
+                    <button onClick={howBtn} className="cursor-pointer text-black bg-gray-100 px-6 py-2 rounded-full font-semibold text-xl">
                         Explore How It Works
                     </button>
                 </div>
