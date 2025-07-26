@@ -2,7 +2,7 @@
 const DataAnalysisSection = () => {
     return (
         <>
-            <section className="px-6 md:px-16 py-6 bg-white space-y-16">
+            <section className="px-6 md:px-16 py-16 bg-white space-y-16">
 
                 <div className="flex flex-col h-[300px] md:flex-row justify-between gap-8">
                     <div className="w-full md:w-1/2">
@@ -19,12 +19,12 @@ const DataAnalysisSection = () => {
                         <img
                             src="/images/analysis.jpg"
                             alt="AI Analysis Illustration"
-                            className="max-w-[280px] h-[400px] md:max-w-[350px] w-full border-6 border-black rounded-2xl shadow-sm"
+                            className="max-w-[280px] md:h-[400px] md:max-w-[350px] w-full border-6 border-black h-auto rounded-2xl shadow-sm"
                         />
                     </div>
                 </div>
             </section>
-            <div className="bg-[#F5F7FF] h-[300px] rounded-xl p-6 md:p-10 text-left">
+            <div className="bg-[#F5F7FF] mt-30 md:mt-1 md:h-[300px] rounded-xl p-6 md:p-10 text-left">
                 <h3 className="text-5xl md:text-[5xl] font-semibold text-gray-900 mt-8 mb-2">
                     Understanding <span className="text-indigo-800 text-5xl font-bold">Autism</span><br></br> Better
                 </h3>

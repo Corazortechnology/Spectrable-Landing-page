@@ -1,7 +1,6 @@
 
-import React from 'react';
-import { Mail, Phone, Linkedin, Instagram, Youtube } from 'lucide-react'; // Optional: Lucide icons
-
+import { Link } from 'react-router-dom';
+import { Mail, Phone, Linkedin, Instagram, Youtube } from 'lucide-react';
 const Footer = () => {
     return (
         <footer className="bg-gray-50 text-gray-700 px-6 md:px-16 py-12 border-t border-gray-200">
@@ -10,10 +9,10 @@ const Footer = () => {
                 <div>
                     <h3 className="font-semibold text-gray-900 mb-3 text-xl">Quick Links:</h3>
                     <ul className="space-y-2">
-                        <li><a href="#" className="hover:underline">Privacy Policy</a></li>
-                        <li><a href="#" className="hover:underline">Terms of Use</a></li>
-                        <li><a href="#" className="hover:underline">Help Center</a></li>
-                        <li><a href="#" className="hover:underline">Request Partnership</a></li>
+                        <li><Link to="/privacy" className="hover:underline">Privacy Policy</Link></li>
+                        <li><Link to="#" className="hover:underline">Terms of Use</Link></li>
+                        <li><Link to="#" className="hover:underline">Help Center</Link></li>
+                        <li><Link to="#" className="hover:underline">Request Partnership</Link></li>
                     </ul>
                 </div>
 

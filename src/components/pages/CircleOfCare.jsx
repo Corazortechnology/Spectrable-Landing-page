@@ -1,7 +1,7 @@
 
 const CircleOfCare = () => {
     return (
-        <section className="px-6 md:px-16 py-6 bg-white">
+        <section className="px-6 md:px-16 py-16 bg-white">
             <h2 className="text-2xl md:text-4xl font-semibold text-gray-900 mb-10">
                 Made for the Circle of Care
             </h2>
