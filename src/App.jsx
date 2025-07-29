@@ -9,11 +9,12 @@ import ClinicsPage from "./components/clinics/ClinicsPage.jsx";
 import HowItWorks from "./components/howworks/HowItWorks.jsx";
 import PrivacyPage from "./components/privacy/PrivacyPage.jsx";
 import ContactPage from "./components/contact/ContactPage.jsx";
-
+import ScrollLink from "./components/ScrollLink.jsx";
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <ScrollLink />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/features" element={<FeaturesPage />} />

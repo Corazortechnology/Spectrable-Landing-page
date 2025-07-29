@@ -1,12 +1,7 @@
 
-<<<<<<< HEAD
-import { Link } from 'react-router-dom';
-import { Mail, Phone, Linkedin, Instagram, Youtube } from 'lucide-react';
-=======
-import React from 'react';
 import { Mail, Phone, Linkedin, Instagram, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
->>>>>>> 87666aa (modification in css)
+
 const Footer = () => {
     return (
         <footer className="bg-gray-50 text-gray-700 px-6 md:px-26 py-12 border-t border-gray-200">
@@ -16,15 +11,9 @@ const Footer = () => {
                     <h3 className="font-semibold text-gray-900 mb-3 text-xl">Quick Links:</h3>
                     <ul className="space-y-2">
                         <li><Link to="/privacy" className="hover:underline">Privacy Policy</Link></li>
-<<<<<<< HEAD
                         <li><Link to="#" className="hover:underline">Terms of Use</Link></li>
                         <li><Link to="#" className="hover:underline">Help Center</Link></li>
                         <li><Link to="#" className="hover:underline">Request Partnership</Link></li>
-=======
-                        <li><a href="#" className="hover:underline">Terms of Use</a></li>
-                        <li><a href="#" className="hover:underline">Help Center</a></li>
-                        <li><a href="#" className="hover:underline">Request Partnership</a></li>
->>>>>>> 87666aa (modification in css)
                     </ul>
                 </div>
 

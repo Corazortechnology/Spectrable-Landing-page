@@ -78,7 +78,7 @@ const cardVariants = {
 
 const FeaturesPage = () => {
     return (
-        <section className="px-6 md:px-16 py-30 bg-white">
+        <section className="px-6 md:px-16 py-40 bg-white">
             <motion.h2
                 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 text-center"
                 initial={{ opacity: 0, y: -20 }}
@@ -108,6 +108,30 @@ const FeaturesPage = () => {
                     </motion.div>
                 ))}
             </div>
+
+
+            <div className="mt-24 text-center max-w-4xl mx-auto">
+                <motion.h3
+                    className="text-2xl md:text-4xl font-bold text-gray-900 mb-6"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                >
+                    Empowering Care, Every Step of the Way
+                </motion.h3>
+                <motion.p
+                    className="text-gray-600 text-lg leading-relaxed"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ delay: 0.2, duration: 0.6 }}
+                >
+                    Our platform bridges the gap between caregivers, therapists, and data by offering
+                    real-time insights, AI-assisted interventions, and secure communication pathways. Whether
+                    you're monitoring behavioral changes, managing therapy goals, or responding to emergencies,
+                    our tools are designed to support autism care with clarity, compassion, and coordination.
+                </motion.p>
+            </div>
+
         </section>
     );
 };

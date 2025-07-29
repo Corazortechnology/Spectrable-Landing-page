@@ -38,7 +38,7 @@ const features = [
 
 const TherapistPage = () => {
     return (
-        <section className="min-h-screen px-6 md:px-16 py-40 bg-gradient-to-tr from-indigo-50 to-white">
+        <section className="min-h-screen px-6 md:px-16 py-20">
             <div className="max-w-4xl mx-auto text-center">
                 <motion.h2
                     className="text-3xl md:text-5xl font-bold text-gray-900 mb-6"
