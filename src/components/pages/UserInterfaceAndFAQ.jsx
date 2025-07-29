@@ -31,13 +31,13 @@ const UserInterfaceAndFAQ = () => {
     return (
         <section className="px-6 md:px-16 py-16 bg-white space-y-16">
 
-            <div className="flex flex-col md:flex-row justify-between gap-8">
+            <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-38 py-8 bg-white">
                 <div className="w-full md:w-1/2">
                     <h2 className="text-2xl md:text-5xl font-semibold text-gray-900 mb-2">
                         User-Friendly Interface
                     </h2>
                     <p className="text-gray-600 text-xl">
-                        Access SpectrAble on any device through<br></br> a simple, intuitive interface designed for ease of use.
+                        Access SpectrAble on any device through a simple, intuitive interface designed for ease of use.
                     </p>
                 </div>
 
@@ -51,8 +51,8 @@ const UserInterfaceAndFAQ = () => {
             </div>
 
 
-            <div>
-                <h3 className="text-2xl md:text-5xl font-semibold text-gray-900 mt-6 mb-16">
+            <div className="px-6 md:px-38 py-2 bg-white">
+                <h3 className="text-2xl md:text-5xl text-center font-semibold text-gray-900 mt-6 mb-16">
                     Frequently Asked Questions
                 </h3>
                 <ul className="space-y-4">

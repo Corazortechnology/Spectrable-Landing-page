@@ -6,7 +6,7 @@ const Hero = () => {
         navigate("/how-it-works")
     }
     return (
-        <section className="flex flex-col-reverse md:flex-row items-center justify-between pl-6 md:pl-12 py-16 md:py-20 bg-white">
+        <section className="flex flex-col-reverse md:flex-row items-center justify-between pl-6 md:pl-12 py-16 md:py-10 bg-white" style={{ paddingTop: "80px" }}>
 
             <div className="w-full md:w-1/2 mt-8 md:mt-0">
                 <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
