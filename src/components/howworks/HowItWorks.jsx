@@ -49,7 +49,7 @@ const HowItWorks = () => {
                 How It Works
             </motion.h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:ml-22 gap-10 mb-16">
                 {timeline.map((step, index) => (
                     <motion.div
                         key={index}
@@ -71,7 +71,7 @@ const HowItWorks = () => {
             <div className="text-center mb-24">
                 <a
                     href="#demo"
-                    className="inline-block bg-gradient-to-r from-indigo-600 to-blue-900 text-white px-6 py-3 rounded-full text-xl font-medium hover:opacity-90 transition"
+                    className="inline-block bg-[#3883F5] text-white px-6 py-3 rounded-full text-xl font-medium hover:opacity-90 transition"
                 >
                     Try an Interactive Demo Journal
                 </a>

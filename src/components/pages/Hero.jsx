@@ -16,11 +16,11 @@ const Hero = () => {
                     Helping families and professionals nurture neurodivergent children through intelligent behavior tracking and therapist-led care.
                 </p>
 
-                <div className="mt-6 flex flex-col sm:flex-row gap-4">
-                    <button className="bg-gradient-to-r from-indigo-600 to-blue-900 text-white px-6 py-2 rounded-full text-xl hover:opacity-90 transition">
+                <div className="mt-10 flex flex-col sm:flex-row gap-4">
+                    <button className="bg-[#3883F5] text-white px-6 py-2 rounded-full text-xl hover:opacity-90 transition">
                         Request Early Access
                     </button>
-                    <button onClick={howBtn} className="cursor-pointer text-black bg-gray-100 px-6 py-2 hover:bg-gradient-to-r from-indigo-600 to-blue-900 hover:text-white rounded-full font-semibold text-xl">
+                    <button onClick={howBtn} className="cursor-pointer text-black bg-gray-100 px-6 py-2 hover:bg-[#3883F5] to-blue-900 hover:text-white rounded-full font-semibold text-xl">
                         Explore How It Works
                     </button>
                 </div>

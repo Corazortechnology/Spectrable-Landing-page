@@ -29,7 +29,7 @@ const UserInterfaceAndFAQ = () => {
     };
 
     return (
-        <section className="px-6 md:px-16 bg-white space-y-16">
+        <section className="px-6 md:px-10 bg-white space-y-16">
 
             <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-38 py-8 bg-white">
                 <div className="w-full md:w-1/2">

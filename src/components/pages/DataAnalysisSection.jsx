@@ -19,13 +19,13 @@ const DataAnalysisSection = () => {
                             AI-Powered Data <br /> Analysis
                         </h2>
                         <p className="text-gray-600 text-xl mt-6">
-                            Utilize cutting-edge AI to analyze text, images, and videos,
-                            providing deeper understanding and actionable insights.
+                            Utilize cutting-edge AI to analyze text, images, and <br></br> videos,
+                            providing deeper understanding and actionable<br></br> insights.
                         </p>
                     </div>
                 </div>
             </section>
-            <div className="bg-[#F5F7FF] h-[350px] rounded-xl p-6 md:p-10 text-center">
+            {/* <div className="bg-[#F5F7FF] h-[350px] rounded-xl p-6 md:p-10 text-center">
                 <h3 className="text-5xl md:text-[5xl] font-semibold text-gray-900 mt-15 mb-2">
                     Understanding <span className="text-indigo-800 text-5xl font-bold">Autism</span><br></br> Better
                 </h3>
@@ -33,7 +33,7 @@ const DataAnalysisSection = () => {
                     SpectrAble helps identify patterns and trends, leading to<br></br> more
                     effective interventions and better outcomes.
                 </p>
-            </div>
+            </div> */}
         </>
     );
 };

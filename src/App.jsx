@@ -7,7 +7,7 @@ import FeaturesPage from "./components/features/FeaturesPage.jsx";
 import TherapistPage from "./components/therapists/TherapistPage.jsx";
 import ClinicsPage from "./components/clinics/ClinicsPage.jsx";
 import HowItWorks from "./components/howworks/HowItWorks.jsx";
-import PrivacyPage from "./components/privacy/PrivacyPage.jsx";
+// import PrivacyPage from "./components/privacy/PrivacyPage.jsx";
 import ContactPage from "./components/contact/ContactPage.jsx";
 import ScrollLink from "./components/ScrollLink.jsx";
 function App() {
@@ -21,7 +21,7 @@ function App() {
         <Route path="/therapists" element={<TherapistPage />} />
         <Route path="/clinics" element={<ClinicsPage />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
-        <Route path="/privacy" element={<PrivacyPage />} />
+        {/* <Route path="/privacy" element={<PrivacyPage />} /> */}
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       <Footer />

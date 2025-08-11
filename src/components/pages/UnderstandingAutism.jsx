@@ -1,7 +1,7 @@
 
 const UnderstandingAutism = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-38 py-12 bg-white">
+        <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-15 py-12 bg-white">
 
             <div className="w-full md:w-1/2 flex justify-center">
                 <img
