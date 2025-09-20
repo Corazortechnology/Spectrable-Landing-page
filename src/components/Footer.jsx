@@ -43,7 +43,7 @@ const Footer = () => {
                         <h3 className="font-semibold text-gray-900 mb-3 text-xl">Quick Links:</h3>
                         <ul className="space-y-2">
                             <li><Link to="" onClick={() => setOpen(true)} className="hover:underline">Privacy Policy</Link></li>
-                            <li><Link to="#" className="hover:underline">Terms of Use</Link></li>
+                            <li><Link to="/terms-and-conditions" className="hover:underline">Terms of Use</Link></li>
                             <li><Link to="#" className="hover:underline">Help Center</Link></li>
                             <li><Link to="#" className="hover:underline">Request Partnership</Link></li>
                         </ul>
@@ -52,8 +52,7 @@ const Footer = () => {
                     <div>
                         <h3 className="font-semibold text-gray-900 mb-3 text-xl">Contact Info:</h3>
                         <ul className="space-y-2">
-                            <li><Mail className="inline-block mr-2" size={14} /> kokumassist@kokkumassist.com</li>
-                            <li><Phone className="inline-block mr-2" size={14} /> +91-XXXXXXXXXX</li>
+                            <li><Mail className="inline-block mr-2" size={14} /> kokumassist@kokumassist.com</li>
                             <li>Legal Name: <span className="font-medium">Kokum assist LLP</span></li>
                             <li>LLPIN: <span className="font-medium">ACL-1013</span></li>
                         </ul>

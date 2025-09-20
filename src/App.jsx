@@ -10,6 +10,7 @@ import HowItWorks from "./components/howworks/HowItWorks.jsx";
 // import PrivacyPage from "./components/privacy/PrivacyPage.jsx";
 import ContactPage from "./components/contact/ContactPage.jsx";
 import ScrollLink from "./components/ScrollLink.jsx";
+import TermAndConditions from "./components/TermAndConditions.jsx";
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +24,7 @@ function App() {
         <Route path="/how-it-works" element={<HowItWorks />} />
         {/* <Route path="/privacy" element={<PrivacyPage />} /> */}
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/terms-and-conditions" element={<TermAndConditions />} />
       </Routes>
       <Footer />
     </BrowserRouter>
