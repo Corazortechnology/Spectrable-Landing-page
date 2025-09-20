@@ -45,6 +45,7 @@ const ContactPage = () => {
                 setIsSubmitted(true);
                 e.target.reset(); // reset form after submission
             } else {
+                console.log("form not submitted");
                 alert("There was an error. Please try again.");
             }
         } catch (err) {
