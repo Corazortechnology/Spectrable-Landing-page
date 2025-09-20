@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const TermAndConditions = () => {
     return (
-        <section className="px-6 md:px-16 md:py-30 py-20 bg-gradient-to-b from-gray-50 via-white to-gray-50 text-gray-800">
-            {/* Title */}
+        <section className="bg-gray-50 px-6 md:px-16 py-40">
+
             <motion.h1
                 className="text-3xl md:text-5xl font-extrabold text-center text-gray-900 mb-6 tracking-wide"
                 initial={{ opacity: 0, y: -20 }}
@@ -15,13 +15,11 @@ const TermAndConditions = () => {
                 Terms & Conditions
             </motion.h1>
 
-            {/* Last modified */}
-            <p className="text-sm text-gray-500 text-center mb-12">
+            <p className="text-sm text-gray-500 text-center mb-4">
                 📅 Last modified: <span className="font-medium">16.09.2025</span>
             </p>
 
-            {/* Content Container */}
-            <div className="max-w-5xl mx-auto p-6 md:p-5 backdrop-blur-sm">
+            <div className="max-w-5xl mx-auto p-6 md:p-5">
                 <article
                     className="prose prose-gray prose-sm md:prose-base lg:prose-lg max-w-none 
           prose-headings:font-semibold prose-headings:text-gray-900 
@@ -45,7 +43,7 @@ const TermAndConditions = () => {
                         reasonable written instructions provided by the parties of this Platform.
                     </p><br></br>
 
-                    <h2>1. Applicability</h2>
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">1. Applicability</h2>
                     <p>
                         The Company, Kokum Assist LLP ("Company" or "We"), with a registered
                         address at 601 Gopal Vishnu CHS Ltd, Mahant Road, Opposite Ruia School,
@@ -59,7 +57,7 @@ const TermAndConditions = () => {
                         “Therapist”, you agree to be bound by these Terms.
                     </p><br></br>
 
-                    <h2>2. Introduction</h2>
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">2. Introduction</h2>
                     <p>
                         These terms and conditions (“Terms”) govern the use of services made
                         available on or through the Spectrable website and/or app (collectively,
@@ -72,26 +70,26 @@ const TermAndConditions = () => {
                         Services, you accept these Terms and Conditions.
                     </p>
                     <br></br>
-                    <h2>3. Purpose and Understanding</h2>
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">3. Purpose and Understanding</h2>
                     <p>
                         These Conditions shall apply as between the Company and the Therapists
                         and also between the Caretakers and Therapists...
                     </p><br></br>
 
-                    <h2>4. Eligibility and Use of Services</h2>
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">4. Eligibility and Use of Services</h2>
                     <p>
                         Persons who are "incompetent to contract" within the meaning of the
                         Indian Contract Act, 1872, are not eligible to use the Platform...
                     </p>
                     <br></br>
-                    <h2>19. Disclaimer</h2>
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">19. Disclaimer</h2>
                     <p>
                         The Platform, including its AI-generated outputs, is intended solely as
                         an assistive digital tool for caregivers, therapists, and clients. It is
                         not classified as a medical device...
                     </p>
                     <br></br>
-                    <h2>Glossary</h2><br></br>
+                    <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">Glossary</h2><br></br>
                     <ul>
                         <li>
                             <strong>Company, We, Us, or Our</strong> refers to Kokum Assist LLP...

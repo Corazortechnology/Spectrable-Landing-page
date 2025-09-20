@@ -39,7 +39,6 @@ const screenshots = [
 const HowItWorks = () => {
     return (
         <section className="bg-gray-50 px-6 md:px-16 py-40">
-            {/* Timeline Title */}
             <motion.h2
                 className="text-3xl md:text-5xl font-bold text-gray-900 text-center mb-14"
                 initial={{ opacity: 0, y: -30 }}

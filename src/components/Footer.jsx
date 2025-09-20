@@ -42,7 +42,7 @@ const Footer = () => {
                     <div>
                         <h3 className="font-semibold text-gray-900 mb-3 text-xl">Quick Links:</h3>
                         <ul className="space-y-2">
-                            <li><Link to="" onClick={() => setOpen(true)} className="hover:underline">Privacy Policy</Link></li>
+                            <li><Link to="/privacy-policy" className="hover:underline">Privacy Policy</Link></li>
                             <li><Link to="/terms-and-conditions" className="hover:underline">Terms of Use</Link></li>
                             <li><Link to="#" className="hover:underline">Help Center</Link></li>
                             <li><Link to="#" className="hover:underline">Request Partnership</Link></li>
@@ -80,61 +80,6 @@ const Footer = () => {
                     <p>Designed for Therapist-Approved Use Only</p>
                 </div>
             </footer>
-
-
-
-            {open && (
-                <motion.div
-                    className="fixed inset-0 bg-white/20 backdrop-blur-xs flex justify-center items-center z-50"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                >
-                    <motion.div
-                        className="bg-white rounded-2xl shadow-xl p-8 max-w-5xl w-full mx-4 overflow-y-auto max-h-[90vh]"
-                        initial={{ scale: 0.8, opacity: 0 }}
-                        animate={{ scale: 1, opacity: 1 }}
-                        transition={{ duration: 0.3 }}
-                    >
-                        <div className="flex justify-between items-center mb-6">
-                            <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-                                Security, Privacy & Compliance
-                            </h2>
-                            <button
-                                onClick={() => setOpen(false)}
-                                className="text-gray-500 hover:text-gray-800 text-2xl"
-                            >
-                                ✖
-                            </button>
-                        </div>
-
-                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
-                            {policies.map((item, idx) => (
-                                <motion.div
-                                    key={idx}
-                                    className="bg-gray-50 p-6 rounded-xl shadow hover:shadow-md transition"
-                                    initial={{ opacity: 0, scale: 0.95 }}
-                                    animate={{ opacity: 1, scale: 1 }}
-                                    transition={{ delay: idx * 0.1 }}
-                                >
-                                    <div className="flex items-center space-x-4 mb-3">
-                                        {item.icon}
-                                        <h4 className="text-lg font-semibold text-gray-800">
-                                            {item.title}
-                                        </h4>
-                                    </div>
-                                    <p className="text-sm text-gray-600">{item.description}</p>
-                                </motion.div>
-                            ))}
-                        </div>
-
-                        <p className="text-md md:text-lg text-gray-700 leading-relaxed text-center">
-                            <strong className="font-semibold text-gray-900">Note:</strong> SpectrAble is{' '}
-                            <span className="underline">not</span> a diagnostic tool. It is a clinical decision-support
-                            system reviewed and approved by licensed human therapists and experts.
-                        </p>
-                    </motion.div>
-                </motion.div>
-            )}
         </>
     );
 };
