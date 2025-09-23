@@ -65,7 +65,7 @@ const TermAndConditions = () => {
                         through the Platform, the “Services”).
                     </p><br></br>
                     <p>
-                        These Terms also include our privacy policy, available at [_________],
+                        These Terms also include our privacy policy, available at [https://spectr-able-corazor.onrender.com/privacy-policy],
                         which forms an essential part of these Terms. By accessing and using the
                         Services, you accept these Terms and Conditions.
                     </p>

@@ -44,8 +44,8 @@ const Footer = () => {
                         <ul className="space-y-2">
                             <li><Link to="/privacy-policy" className="hover:underline">Privacy Policy</Link></li>
                             <li><Link to="/terms-and-conditions" className="hover:underline">Terms of Use</Link></li>
-                            <li><Link to="#" className="hover:underline">Cancellation and refund policy</Link></li>
-                            <li><Link to="#" className="hover:underline">Shipping policy </Link></li>
+                            <li><Link to="/cancellation" className="hover:underline">Cancellation and refund policy</Link></li>
+                            <li><Link to="/shipping" className="hover:underline">Shipping policy </Link></li>
                             <li><Link to="#" className="hover:underline">Help Center</Link></li>
                             <li><Link to="#" className="hover:underline">Request Partnership</Link></li>
                         </ul>
