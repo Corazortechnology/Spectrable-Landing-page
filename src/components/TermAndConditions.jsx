@@ -1,7 +1,7 @@
 
 
 import { motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 const TermAndConditions = () => {
     return (
         <section className="bg-gray-50 px-6 md:px-16 py-40">
@@ -65,7 +65,7 @@ const TermAndConditions = () => {
                         through the Platform, the “Services”).
                     </p><br></br>
                     <p>
-                        These Terms also include our privacy policy, available at [https://spectr-able-corazor.onrender.com/privacy-policy],
+                        These Terms also include our privacy policy, available at <Link to="/privacy-policy">[https://spectr-able-corazor.onrender.com/privacy-policy]</Link>,
                         which forms an essential part of these Terms. By accessing and using the
                         Services, you accept these Terms and Conditions.
                     </p>
